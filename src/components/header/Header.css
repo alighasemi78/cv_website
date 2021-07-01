@@ -1,0 +1,36 @@
+#header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 15px;
+  transition: background 0.4s;
+}
+
+#header.active {
+  background-color: #202026;
+}
+
+#headerHamburger {
+  width: 32px;
+  padding: 5px;
+}
+
+.headerOption {
+  margin: 0 20px;
+}
+
+.headerOption div {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.headerOption.active div {
+  border-color: #fff;
+}
