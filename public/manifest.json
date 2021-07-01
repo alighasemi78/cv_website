@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ali Ghasemi",
+  "name": "Ali Ghasemi's Resume",
+  "description": "This website is Ali Ghasemi's Resume",
   "icons": [
     {
       "src": "favicon.ico",
