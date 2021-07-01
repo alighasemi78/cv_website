@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/cv_website/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/cv_website/static/js/main.06e0150e.chunk.js",
-    "main.js.map": "/cv_website/static/js/main.06e0150e.chunk.js.map",
-    "runtime-main.js": "/cv_website/static/js/runtime-main.baf2f019.js",
-    "runtime-main.js.map": "/cv_website/static/js/runtime-main.baf2f019.js.map",
-    "static/js/2.e53be0f9.chunk.js": "/cv_website/static/js/2.e53be0f9.chunk.js",
-    "static/js/2.e53be0f9.chunk.js.map": "/cv_website/static/js/2.e53be0f9.chunk.js.map",
-    "static/js/3.a34536f5.chunk.js": "/cv_website/static/js/3.a34536f5.chunk.js",
-    "static/js/3.a34536f5.chunk.js.map": "/cv_website/static/js/3.a34536f5.chunk.js.map",
+    "main.css": "/cv_website/static/css/main.21e2ab17.chunk.css",
+    "main.js": "/cv_website/static/js/main.93644525.chunk.js",
+    "main.js.map": "/cv_website/static/js/main.93644525.chunk.js.map",
+    "runtime-main.js": "/cv_website/static/js/runtime-main.b0c7b84f.js",
+    "runtime-main.js.map": "/cv_website/static/js/runtime-main.b0c7b84f.js.map",
+    "static/js/2.7258c518.chunk.js": "/cv_website/static/js/2.7258c518.chunk.js",
+    "static/js/2.7258c518.chunk.js.map": "/cv_website/static/js/2.7258c518.chunk.js.map",
+    "static/js/3.ec2164cc.chunk.js": "/cv_website/static/js/3.ec2164cc.chunk.js",
+    "static/js/3.ec2164cc.chunk.js.map": "/cv_website/static/js/3.ec2164cc.chunk.js.map",
     "index.html": "/cv_website/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/cv_website/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.e53be0f9.chunk.js.LICENSE.txt": "/cv_website/static/js/2.e53be0f9.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/cv_website/static/media/logo.6ce24c58.svg"
+    "static/css/main.21e2ab17.chunk.css.map": "/cv_website/static/css/main.21e2ab17.chunk.css.map",
+    "static/js/2.7258c518.chunk.js.LICENSE.txt": "/cv_website/static/js/2.7258c518.chunk.js.LICENSE.txt",
+    "static/media/Ali Ghasemi 4.17c3d106.jpg": "/cv_website/static/media/Ali Ghasemi 4.17c3d106.jpg",
+    "static/media/Hamburger_icon.e2534c39.svg": "/cv_website/static/media/Hamburger_icon.e2534c39.svg",
+    "static/media/about-img.fe317ef5.png": "/cv_website/static/media/about-img.fe317ef5.png",
+    "static/media/close.0c3c9dbb.svg": "/cv_website/static/media/close.0c3c9dbb.svg",
+    "static/media/download.1b03ac16.svg": "/cv_website/static/media/download.1b03ac16.svg",
+    "static/media/envelope.cd047432.svg": "/cv_website/static/media/envelope.cd047432.svg",
+    "static/media/telegram.3ccb6779.svg": "/cv_website/static/media/telegram.3ccb6779.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.baf2f019.js",
-    "static/js/2.e53be0f9.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.06e0150e.chunk.js"
+    "static/js/runtime-main.b0c7b84f.js",
+    "static/js/2.7258c518.chunk.js",
+    "static/css/main.21e2ab17.chunk.css",
+    "static/js/main.93644525.chunk.js"
   ]
 }
