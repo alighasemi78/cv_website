@@ -5,6 +5,7 @@ import envelope from "../../images/envelope.svg";
 import skype from "../../images/skype.svg";
 import telegram from "../../images/telegram.svg";
 import whatsapp from "../../images/whatsapp.svg";
+import linkedin from "../../images/linkedin.svg";
 
 // Components
 import ContactItem from "../contactItem/ContactItem";
@@ -37,6 +38,12 @@ const Contact = () => {
           title="WhatsApp"
           value="Ali Ghasemi"
           link="https://api.whatsapp.com/send?phone=989028336171"
+        />
+        <ContactItem
+          image={linkedin}
+          title="LinkedIn"
+          value="Ali Ghasemi"
+          link="https://www.linkedin.com/in/alighasemi13781999"
         />
       </div>
     </div>

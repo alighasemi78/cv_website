@@ -35,6 +35,7 @@
   line-height: 30px;
   color: #fff;
   border-bottom: 1px solid transparent;
+  cursor: pointer;
 }
 
 .headerOption.active div {
