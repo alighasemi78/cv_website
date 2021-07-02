@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/cv_website/static/css/main.21e2ab17.chunk.css",
-    "main.js": "/cv_website/static/js/main.93644525.chunk.js",
-    "main.js.map": "/cv_website/static/js/main.93644525.chunk.js.map",
-    "runtime-main.js": "/cv_website/static/js/runtime-main.b0c7b84f.js",
-    "runtime-main.js.map": "/cv_website/static/js/runtime-main.b0c7b84f.js.map",
+    "main.css": "/cv_website/static/css/main.e13fdeac.chunk.css",
+    "main.js": "/cv_website/static/js/main.2949b94a.chunk.js",
+    "main.js.map": "/cv_website/static/js/main.2949b94a.chunk.js.map",
+    "runtime-main.js": "/cv_website/static/js/runtime-main.5353f79b.js",
+    "runtime-main.js.map": "/cv_website/static/js/runtime-main.5353f79b.js.map",
     "static/js/2.7258c518.chunk.js": "/cv_website/static/js/2.7258c518.chunk.js",
     "static/js/2.7258c518.chunk.js.map": "/cv_website/static/js/2.7258c518.chunk.js.map",
-    "static/js/3.ec2164cc.chunk.js": "/cv_website/static/js/3.ec2164cc.chunk.js",
-    "static/js/3.ec2164cc.chunk.js.map": "/cv_website/static/js/3.ec2164cc.chunk.js.map",
+    "static/js/3.8cba5ccb.chunk.js": "/cv_website/static/js/3.8cba5ccb.chunk.js",
+    "static/js/3.8cba5ccb.chunk.js.map": "/cv_website/static/js/3.8cba5ccb.chunk.js.map",
     "index.html": "/cv_website/index.html",
-    "static/css/main.21e2ab17.chunk.css.map": "/cv_website/static/css/main.21e2ab17.chunk.css.map",
+    "static/css/main.e13fdeac.chunk.css.map": "/cv_website/static/css/main.e13fdeac.chunk.css.map",
     "static/js/2.7258c518.chunk.js.LICENSE.txt": "/cv_website/static/js/2.7258c518.chunk.js.LICENSE.txt",
     "static/media/Ali Ghasemi 4.17c3d106.jpg": "/cv_website/static/media/Ali Ghasemi 4.17c3d106.jpg",
     "static/media/Hamburger_icon.e2534c39.svg": "/cv_website/static/media/Hamburger_icon.e2534c39.svg",
     "static/media/about-img.fe317ef5.png": "/cv_website/static/media/about-img.fe317ef5.png",
     "static/media/close.0c3c9dbb.svg": "/cv_website/static/media/close.0c3c9dbb.svg",
+    "static/media/code.0fa96143.svg": "/cv_website/static/media/code.0fa96143.svg",
     "static/media/download.1b03ac16.svg": "/cv_website/static/media/download.1b03ac16.svg",
     "static/media/envelope.cd047432.svg": "/cv_website/static/media/envelope.cd047432.svg",
     "static/media/telegram.3ccb6779.svg": "/cv_website/static/media/telegram.3ccb6779.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0c7b84f.js",
+    "static/js/runtime-main.5353f79b.js",
     "static/js/2.7258c518.chunk.js",
-    "static/css/main.21e2ab17.chunk.css",
-    "static/js/main.93644525.chunk.js"
+    "static/css/main.e13fdeac.chunk.css",
+    "static/js/main.2949b94a.chunk.js"
   ]
 }
