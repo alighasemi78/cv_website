@@ -32,7 +32,7 @@ const About = () => {
           <div>Python</div>
         </div>
         <a
-          href="https://github.com/hesanghasemi/cv_website/raw/gh-pages/static/media/%D8%B9%D9%84%DB%8C%20%D9%82%D8%A7%D8%B3%D9%85%DB%8C_1400-2-27.a8b9570a.pdf"
+          href="https://github.com/hesanghasemi/cv_website/raw/master/src/files/%D8%B9%D9%84%DB%8C%20%D9%82%D8%A7%D8%B3%D9%85%DB%8C_1400-2-27.pdf"
           target="_blank"
           rel="noreferrer"
           download="Ali Ghasemi's CV.pdf"
