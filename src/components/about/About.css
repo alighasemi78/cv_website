@@ -74,10 +74,16 @@
   #about {
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
   }
 
-  #about > img {
-    width: 50%;
+  #about > img,
+  #aboutContent {
+    width: 45%;
+  }
+
+  #aboutContent {
+    margin: 0;
   }
 
   #aboutContent,
