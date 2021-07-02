@@ -11,6 +11,10 @@ import Skills from "./components/skills/Skills";
 import Experiences from "./components/experiences/Experiences";
 import Contact from "./components/contact/Contact";
 
+import smoothscroll from "smoothscroll-polyfill";
+
+smoothscroll.polyfill();
+
 const App = () => {
   const [sideMenuVisible, setSideMenuVisible] = useState(false);
   const [activeSection, setActiveSection] = useState(0);
