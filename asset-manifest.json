@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/cv_website/static/css/main.a80a04ce.chunk.css",
-    "main.js": "/cv_website/static/js/main.6d0c24cf.chunk.js",
-    "main.js.map": "/cv_website/static/js/main.6d0c24cf.chunk.js.map",
-    "runtime-main.js": "/cv_website/static/js/runtime-main.b9d6f249.js",
-    "runtime-main.js.map": "/cv_website/static/js/runtime-main.b9d6f249.js.map",
-    "static/js/2.7bf82ec4.chunk.js": "/cv_website/static/js/2.7bf82ec4.chunk.js",
-    "static/js/2.7bf82ec4.chunk.js.map": "/cv_website/static/js/2.7bf82ec4.chunk.js.map",
-    "static/js/3.8a960377.chunk.js": "/cv_website/static/js/3.8a960377.chunk.js",
-    "static/js/3.8a960377.chunk.js.map": "/cv_website/static/js/3.8a960377.chunk.js.map",
+    "main.js": "/cv_website/static/js/main.b5409c9e.chunk.js",
+    "main.js.map": "/cv_website/static/js/main.b5409c9e.chunk.js.map",
+    "runtime-main.js": "/cv_website/static/js/runtime-main.e211b1bb.js",
+    "runtime-main.js.map": "/cv_website/static/js/runtime-main.e211b1bb.js.map",
+    "static/js/2.b4331ea0.chunk.js": "/cv_website/static/js/2.b4331ea0.chunk.js",
+    "static/js/2.b4331ea0.chunk.js.map": "/cv_website/static/js/2.b4331ea0.chunk.js.map",
+    "static/js/3.98e304d8.chunk.js": "/cv_website/static/js/3.98e304d8.chunk.js",
+    "static/js/3.98e304d8.chunk.js.map": "/cv_website/static/js/3.98e304d8.chunk.js.map",
     "index.html": "/cv_website/index.html",
     "static/css/main.a80a04ce.chunk.css.map": "/cv_website/static/css/main.a80a04ce.chunk.css.map",
-    "static/js/2.7bf82ec4.chunk.js.LICENSE.txt": "/cv_website/static/js/2.7bf82ec4.chunk.js.LICENSE.txt",
+    "static/js/2.b4331ea0.chunk.js.LICENSE.txt": "/cv_website/static/js/2.b4331ea0.chunk.js.LICENSE.txt",
     "static/media/Ali Ghasemi 4.17c3d106.jpg": "/cv_website/static/media/Ali Ghasemi 4.17c3d106.jpg",
     "static/media/Hamburger_icon-000000.209fa146.svg": "/cv_website/static/media/Hamburger_icon-000000.209fa146.svg",
     "static/media/Hamburger_icon-ffffff.e2534c39.svg": "/cv_website/static/media/Hamburger_icon-ffffff.e2534c39.svg",
@@ -37,9 +37,9 @@
     "static/media/whatsapp-ffffff.47404385.svg": "/cv_website/static/media/whatsapp-ffffff.47404385.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9d6f249.js",
-    "static/js/2.7bf82ec4.chunk.js",
+    "static/js/runtime-main.e211b1bb.js",
+    "static/js/2.b4331ea0.chunk.js",
     "static/css/main.a80a04ce.chunk.css",
-    "static/js/main.6d0c24cf.chunk.js"
+    "static/js/main.b5409c9e.chunk.js"
   ]
 }
