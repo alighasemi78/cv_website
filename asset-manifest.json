@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cv_website/static/css/main.e13fdeac.chunk.css",
-    "main.js": "/cv_website/static/js/main.2949b94a.chunk.js",
-    "main.js.map": "/cv_website/static/js/main.2949b94a.chunk.js.map",
-    "runtime-main.js": "/cv_website/static/js/runtime-main.5353f79b.js",
-    "runtime-main.js.map": "/cv_website/static/js/runtime-main.5353f79b.js.map",
+    "main.css": "/cv_website/static/css/main.4b785be8.chunk.css",
+    "main.js": "/cv_website/static/js/main.13c6893f.chunk.js",
+    "main.js.map": "/cv_website/static/js/main.13c6893f.chunk.js.map",
+    "runtime-main.js": "/cv_website/static/js/runtime-main.dda8de47.js",
+    "runtime-main.js.map": "/cv_website/static/js/runtime-main.dda8de47.js.map",
     "static/js/2.7258c518.chunk.js": "/cv_website/static/js/2.7258c518.chunk.js",
     "static/js/2.7258c518.chunk.js.map": "/cv_website/static/js/2.7258c518.chunk.js.map",
-    "static/js/3.8cba5ccb.chunk.js": "/cv_website/static/js/3.8cba5ccb.chunk.js",
-    "static/js/3.8cba5ccb.chunk.js.map": "/cv_website/static/js/3.8cba5ccb.chunk.js.map",
+    "static/js/3.2b4655ce.chunk.js": "/cv_website/static/js/3.2b4655ce.chunk.js",
+    "static/js/3.2b4655ce.chunk.js.map": "/cv_website/static/js/3.2b4655ce.chunk.js.map",
     "index.html": "/cv_website/index.html",
-    "static/css/main.e13fdeac.chunk.css.map": "/cv_website/static/css/main.e13fdeac.chunk.css.map",
+    "static/css/main.4b785be8.chunk.css.map": "/cv_website/static/css/main.4b785be8.chunk.css.map",
     "static/js/2.7258c518.chunk.js.LICENSE.txt": "/cv_website/static/js/2.7258c518.chunk.js.LICENSE.txt",
     "static/media/Ali Ghasemi 4.17c3d106.jpg": "/cv_website/static/media/Ali Ghasemi 4.17c3d106.jpg",
     "static/media/Hamburger_icon.e2534c39.svg": "/cv_website/static/media/Hamburger_icon.e2534c39.svg",
@@ -19,12 +19,15 @@
     "static/media/code.0fa96143.svg": "/cv_website/static/media/code.0fa96143.svg",
     "static/media/download.1b03ac16.svg": "/cv_website/static/media/download.1b03ac16.svg",
     "static/media/envelope.cd047432.svg": "/cv_website/static/media/envelope.cd047432.svg",
-    "static/media/telegram.3ccb6779.svg": "/cv_website/static/media/telegram.3ccb6779.svg"
+    "static/media/github.b7ec577a.svg": "/cv_website/static/media/github.b7ec577a.svg",
+    "static/media/skype.d9cc97fe.svg": "/cv_website/static/media/skype.d9cc97fe.svg",
+    "static/media/telegram.3ccb6779.svg": "/cv_website/static/media/telegram.3ccb6779.svg",
+    "static/media/whatsapp.47404385.svg": "/cv_website/static/media/whatsapp.47404385.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5353f79b.js",
+    "static/js/runtime-main.dda8de47.js",
     "static/js/2.7258c518.chunk.js",
-    "static/css/main.e13fdeac.chunk.css",
-    "static/js/main.2949b94a.chunk.js"
+    "static/css/main.4b785be8.chunk.css",
+    "static/js/main.13c6893f.chunk.js"
   ]
 }
