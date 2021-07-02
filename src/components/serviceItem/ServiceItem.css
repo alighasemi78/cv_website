@@ -1,0 +1,25 @@
+.serviceItem {
+  box-shadow: -1rem 0 3rem #000;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #202026;
+}
+
+.serviceItem img {
+  margin: 16px 0 20px;
+  height: 29.6px;
+}
+
+.serviceItem div:first-of-type {
+  margin-bottom: 18px;
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.serviceItem div:last-of-type {
+  margin-bottom: 1rem;
+}

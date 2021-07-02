@@ -1,0 +1,27 @@
+.skillsCircleProgress {
+  width: 48%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillsCircleProgressContent {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  font: 900 1.1428571429em/1 Cinzel, cursive;
+  position: relative;
+}
+
+.skillsCircleProgressContentPercent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.skillsCircleProgressName {
+  color: #fff;
+}
