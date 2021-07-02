@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv_website/static/css/main.a80a04ce.chunk.css",
+    "main.css": "/cv_website/static/css/main.a6e7f07c.chunk.css",
     "main.js": "/cv_website/static/js/main.b5409c9e.chunk.js",
     "main.js.map": "/cv_website/static/js/main.b5409c9e.chunk.js.map",
     "runtime-main.js": "/cv_website/static/js/runtime-main.e211b1bb.js",
@@ -10,7 +10,7 @@
     "static/js/3.98e304d8.chunk.js": "/cv_website/static/js/3.98e304d8.chunk.js",
     "static/js/3.98e304d8.chunk.js.map": "/cv_website/static/js/3.98e304d8.chunk.js.map",
     "index.html": "/cv_website/index.html",
-    "static/css/main.a80a04ce.chunk.css.map": "/cv_website/static/css/main.a80a04ce.chunk.css.map",
+    "static/css/main.a6e7f07c.chunk.css.map": "/cv_website/static/css/main.a6e7f07c.chunk.css.map",
     "static/js/2.b4331ea0.chunk.js.LICENSE.txt": "/cv_website/static/js/2.b4331ea0.chunk.js.LICENSE.txt",
     "static/media/Ali Ghasemi 4.17c3d106.jpg": "/cv_website/static/media/Ali Ghasemi 4.17c3d106.jpg",
     "static/media/Hamburger_icon-000000.209fa146.svg": "/cv_website/static/media/Hamburger_icon-000000.209fa146.svg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.e211b1bb.js",
     "static/js/2.b4331ea0.chunk.js",
-    "static/css/main.a80a04ce.chunk.css",
+    "static/css/main.a6e7f07c.chunk.css",
     "static/js/main.b5409c9e.chunk.js"
   ]
 }
