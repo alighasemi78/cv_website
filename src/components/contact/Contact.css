@@ -1,0 +1,14 @@
+#contact {
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactTitle {
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}

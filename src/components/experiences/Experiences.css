@@ -1,0 +1,23 @@
+#experiences {
+  padding: 30px 15px;
+}
+
+#experiencesEducation,
+#experiencesWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#experiencesEducationTitle,
+#experiencesWorkTitle {
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#experiencesWorkTitle {
+  margin-top: 30px;
+}

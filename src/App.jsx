@@ -9,6 +9,7 @@ import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Experiences from "./components/experiences/Experiences";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   const [sideMenuVisible, setSideMenuVisible] = useState(false);
@@ -27,14 +28,25 @@ const App = () => {
       document.getElementById("header").classList.remove("active");
     }
 
-    if (window.scrollY < document.getElementById("about").offsetTop) {
+    if (window.scrollY < document.getElementById("about").offsetTop - 52) {
       setActiveSection(0);
-    } else if (window.scrollY < document.getElementById("services").offsetTop) {
+    } else if (
+      window.scrollY <
+      document.getElementById("services").offsetTop - 52
+    ) {
       setActiveSection(1);
-    } else if (window.scrollY < document.getElementById("skills").offsetTop) {
+    } else if (
+      window.scrollY <
+      document.getElementById("skills").offsetTop - 52
+    ) {
       setActiveSection(2);
-    } else {
+    } else if (
+      window.scrollY <
+      document.getElementById("experiences").offsetTop - 52
+    ) {
       setActiveSection(3);
+    } else {
+      setActiveSection(4);
     }
   };
 
@@ -54,6 +66,7 @@ const App = () => {
       <Services />
       <Skills />
       <Experiences />
+      <Contact />
     </div>
   );
 };

@@ -45,12 +45,12 @@ const SideMenu = ({ visible, setVisible, activeSection }) => {
       >
         Experiences
       </div>
-      <div
+      {/* <div
         className={activeSection === 5 ? "active" : null}
         onClick={() => goToSections(5)}
       >
         Portfolio
-      </div>
+      </div> */}
       <div
         className={activeSection === 6 ? "active" : null}
         onClick={() => goToSections(6)}

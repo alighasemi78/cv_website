@@ -1,0 +1,56 @@
+.experienceItem {
+  box-shadow: -1rem 0 3rem #000;
+  margin-bottom: 30px;
+  padding: 26px 30px;
+  border-radius: 4px;
+  background-color: #202026;
+  width: 100%;
+}
+
+.experienceItemTitle,
+.experienceItemPlace {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.experienceItemTitle {
+  color: #fff;
+}
+
+.experienceItemPlace {
+  color: #a97afd;
+  font-style: italic;
+  margin-left: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.experienceItemTime {
+  color: #a97afd;
+  margin: 10px 0;
+}
+
+.experienceItemDescription {
+  line-height: 23px;
+  color: #fff;
+}
+
+.experienceItemSkills {
+  list-style: none;
+}
+
+.experienceItemSkill {
+  line-height: 23px;
+  margin: 2px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.experienceItemSkill div {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 10px;
+}
