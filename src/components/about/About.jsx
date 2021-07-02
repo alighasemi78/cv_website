@@ -4,9 +4,9 @@ import "./About.css";
 import about from "../../images/about-img.png";
 import download from "../../images/download.svg";
 
-const About = () => {
+const About = ({ darkMode }) => {
   return (
-    <div id="about">
+    <div id="about" className={darkMode ? "dark" : null}>
       <img src={about} alt="about" />
       <div id="aboutContent">
         <div id="aboutContentTitle">About Me</div>

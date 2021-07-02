@@ -1,20 +1,40 @@
 #home {
+  background-image: url("../../images/home-bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home.dark #homeOverlay {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+#homeOverlay {
+  padding: 60px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#home.dark #homeImageOuterLayer {
+  border: 20px solid rgba(0, 0, 0, 0.9);
 }
 
 #homeImageOuterLayer {
-  border: 20px solid rgba(0, 0, 0, 0.9);
+  border: 20px solid rgba(0, 0, 0, 0.07);
   border-radius: 50%;
   width: 280px;
   height: 280px;
   margin: 30px 0;
 }
 
-#homeImageOuterLayer img {
+#home.dark #homeImageOuterLayer img {
   border: 20px solid rgba(0, 0, 0, 0.4);
+}
+
+#homeImageOuterLayer img {
+  border: 20px solid rgba(0, 0, 0, 0.17);
   border-radius: 50%;
   width: 100%;
   height: 100%;
@@ -37,18 +57,22 @@
   margin-bottom: 20px;
 }
 
+#home.dark #homeInfoName,
+#home.dark #homeInfoRole,
+#home.dark .homeInfoContactOption a {
+  color: #fff;
+}
+
 #homeInfoName {
   font-size: 42px;
   font-weight: 600;
   line-height: 54px;
-  color: #fff;
   margin-bottom: 10px;
 }
 
 #homeInfoRole {
   font-size: 20px;
   line-height: 24px;
-  color: #fff;
   margin-bottom: 30px;
   font-weight: bold;
 }
@@ -65,11 +89,11 @@
 }
 
 .homeInfoContactOption a {
-  color: #fff;
+  color: #000;
 }
 
 @media screen and (min-width: 420px) {
-  #home {
+  #homeOverlay {
     padding: 30px 15px;
   }
 
@@ -80,7 +104,7 @@
 }
 
 @media screen and (min-width: 575px) {
-  #home {
+  #homeOverlay {
     flex-direction: row-reverse;
     justify-content: space-between;
   }

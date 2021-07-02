@@ -1,14 +1,34 @@
 import "./Header.css";
 
 // Images
-import hamburger from "../../images/Hamburger_icon.svg";
+import hamburgerBlack from "../../images/Hamburger_icon-000000.svg";
+import hamburgerWhite from "../../images/Hamburger_icon-ffffff.svg";
+import moonBlack from "../../images/moon-000000.svg";
+import moonWhite from "../../images/moon-ffffff.svg";
+
+// Components
+import SwitchButton from "../switchButton/SwitchButton";
 
 // Functions
 import { changeActiveSectionPosition } from "../../functions";
 
 import { useWindowWidth } from "@react-hook/window-size/throttled";
+import { useEffect } from "react";
 
-const Header = ({ setSideMenuVisible, activeSection }) => {
+const Header = ({
+  setSideMenuVisible,
+  activeSection,
+  darkMode,
+  setDarkMode,
+}) => {
+  useEffect(() => {
+    if (darkMode) {
+      document.getElementById("header").classList.add("dark");
+    } else {
+      document.getElementById("header").classList.remove("dark");
+    }
+  }, [darkMode]);
+
   const windowWidth = useWindowWidth();
 
   const changeActiveSection = (index) => {
@@ -18,9 +38,15 @@ const Header = ({ setSideMenuVisible, activeSection }) => {
   return (
     <div id="header">
       <div id="headerContent">
+        <SwitchButton darkMode={darkMode} setDarkMode={setDarkMode} />
+        <img
+          src={darkMode ? moonWhite : moonBlack}
+          alt="moon"
+          id="headerMoon"
+        />
         {windowWidth < 991 ? (
           <img
-            src={hamburger}
+            src={darkMode ? hamburgerWhite : hamburgerBlack}
             alt="hamburger"
             id="headerHamburger"
             onClick={() => setSideMenuVisible(true)}

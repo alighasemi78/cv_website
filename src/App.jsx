@@ -14,12 +14,21 @@ import Contact from "./components/contact/Contact";
 const App = () => {
   const [sideMenuVisible, setSideMenuVisible] = useState(false);
   const [activeSection, setActiveSection] = useState(0);
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
 
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.style.backgroundColor = "#100e17";
+    } else {
+      document.body.style.backgroundColor = "#fff";
+    }
+  }, [darkMode]);
 
   const onScroll = () => {
     if (window.scrollY > 0) {
@@ -60,18 +69,20 @@ const App = () => {
       <Header
         setSideMenuVisible={setSideMenuVisible}
         activeSection={activeSection}
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
       />
       <SideMenu
         visible={sideMenuVisible}
         setVisible={setSideMenuVisible}
         activeSection={activeSection}
       />
-      <Home />
-      <About />
-      <Services />
-      <Skills />
-      <Experiences />
-      <Contact />
+      <Home darkMode={darkMode} />
+      <About darkMode={darkMode} />
+      <Services darkMode={darkMode} />
+      <Skills darkMode={darkMode} />
+      <Experiences darkMode={darkMode} />
+      <Contact darkMode={darkMode} />
     </div>
   );
 };

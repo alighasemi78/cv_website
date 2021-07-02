@@ -10,13 +10,25 @@
   text-align: center;
 }
 
+#skills.dark #skillsTechnicalTitle,
+#skills.dark #skillsProfessionalTitle {
+  color: #fff;
+}
+
 #skillsTechnicalTitle,
 #skillsProfessionalTitle {
   margin-bottom: 30px;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
+}
+
+#skills.dark .skillsProgress {
   color: #fff;
+}
+
+#skills.dark .skillsProgressContainer {
+  background-color: rgba(199, 198, 198, 0.6);
 }
 
 #skillsProfessional {
@@ -25,6 +37,14 @@
 
 #skillsProfessionalTitle {
   margin: 30px 0;
+}
+
+#skills.dark .skillsCircleProgress {
+  color: #fff;
+}
+
+#skills.dark .skillsCircleProgressContent path:first-of-type {
+  stroke: rgba(255, 255, 255, 0.5);
 }
 
 #skillsProfessionalProgresses {

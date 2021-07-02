@@ -5,9 +5,19 @@
   align-items: center;
 }
 
+#contact.dark #contactTitle,
+#contact.dark .contactItemTitle,
+#contact.dark .contactItemValue {
+  color: #fff;
+}
+
+#contact.dark .contactItem {
+  box-shadow: -1rem 0 3rem #000;
+  background-color: #202026;
+}
+
 #contactTitle {
   margin-bottom: 60px;
-  color: #fff;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
@@ -15,6 +25,10 @@
 
 #contactContent {
   width: 100%;
+  background-image: url("../../images/map-color-overlay.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (min-width: 768px) {

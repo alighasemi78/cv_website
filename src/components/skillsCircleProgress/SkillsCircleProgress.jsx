@@ -7,7 +7,7 @@ const SkillsCircleProgress = ({ name, percent }) => {
         <svg viewBox="0 0 100 100">
           <path
             d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
-            stroke="rgba(255, 255, 255, 0.5)"
+            stroke="rgba(0, 0, 0, 0.5)"
             strokeWidth="5"
             fillOpacity="0"
           ></path>

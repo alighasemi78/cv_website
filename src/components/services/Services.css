@@ -5,9 +5,12 @@
   align-items: center;
 }
 
+#services.dark #servicesTitle {
+  color: #fff;
+}
+
 #servicesTitle {
   margin-bottom: 60px;
-  color: #fff;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;

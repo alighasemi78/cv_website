@@ -1,46 +1,51 @@
 import "./Contact.css";
 
 // Images
-import envelope from "../../images/envelope.svg";
-import skype from "../../images/skype.svg";
-import telegram from "../../images/telegram.svg";
-import whatsapp from "../../images/whatsapp.svg";
-import linkedin from "../../images/linkedin.svg";
+import envelopeBlack from "../../images/envelope-000000.svg";
+import envelopeWhite from "../../images/envelope-ffffff.svg";
+import skypeBlack from "../../images/skype-000000.svg";
+import skypeWhite from "../../images/skype-ffffff.svg";
+import telegramBlack from "../../images/telegram-000000.svg";
+import telegramWhite from "../../images/telegram-ffffff.svg";
+import whatsappBlack from "../../images/whatsapp-000000.svg";
+import whatsappWhite from "../../images/whatsapp-ffffff.svg";
+import linkedinBlack from "../../images/linkedin-000000.svg";
+import linkedinWhite from "../../images/linkedin-ffffff.svg";
 
 // Components
 import ContactItem from "../contactItem/ContactItem";
 
-const Contact = () => {
+const Contact = ({ darkMode }) => {
   return (
-    <div id="contact">
+    <div id="contact" className={darkMode ? "dark" : null}>
       <div id="contactTitle">Contact Me</div>
       <div id="contactContent">
         <ContactItem
-          image={envelope}
+          image={darkMode ? envelopeWhite : envelopeBlack}
           title="Email"
           value="hesanghasemi99@gmail.com"
           link="mailto:hesanghasemi99@gmail.com"
         />
         <ContactItem
-          image={skype}
+          image={darkMode ? skypeWhite : skypeBlack}
           title="Skype"
           value="Ali Ghasemi"
           link="skype:live:.cid.ae0ede6705e47885?chat"
         />
         <ContactItem
-          image={telegram}
+          image={darkMode ? telegramWhite : telegramBlack}
           title="Telegram"
           value="Ali Ghasemi"
           link="https://t.me/Hesan_G"
         />
         <ContactItem
-          image={whatsapp}
+          image={darkMode ? whatsappWhite : whatsappBlack}
           title="WhatsApp"
           value="Ali Ghasemi"
           link="https://api.whatsapp.com/send?phone=989028336171"
         />
         <ContactItem
-          image={linkedin}
+          image={darkMode ? linkedinWhite : linkedinBlack}
           title="LinkedIn"
           value="Ali Ghasemi"
           link="https://www.linkedin.com/in/alighasemi13781999"

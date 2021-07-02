@@ -4,9 +4,9 @@ import "./Skills.css";
 import SkillsProgress from "../skillsProgress/SkillsProgress";
 import SkillsCircleProgress from "../skillsCircleProgress/SkillsCircleProgress";
 
-const Skills = () => {
+const Skills = ({ darkMode }) => {
   return (
-    <div id="skills">
+    <div id="skills" className={darkMode ? "dark" : null}>
       <div id="skillsTechnical">
         <div id="skillsTechnicalTitle">Technical Skills</div>
         <SkillsProgress name="Javascript" percent={86} />

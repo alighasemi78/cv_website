@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -20,7 +19,7 @@
 }
 
 .skillsProgressContainer {
-  background-color: rgba(199, 198, 198, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   position: relative;
   height: 7px;
   border-radius: 10px;
@@ -33,5 +32,4 @@
   top: 0;
   height: 7px;
   border-radius: 10px;
-  
 }

@@ -8,7 +8,13 @@
 }
 
 #header.active {
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+#header.dark.active {
   background-color: #202026;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
 #headerContent {
@@ -20,6 +26,12 @@
   margin: 0 auto;
 }
 
+#headerMoon {
+  margin-right: auto;
+  width: 20px;
+  margin-left: 10px;
+}
+
 #headerHamburger {
   width: 32px;
   padding: 5px;
@@ -29,15 +41,22 @@
   margin: 0 20px;
 }
 
+#header.dark .headerOption div {
+  color: #fff;
+}
+
 .headerOption div {
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
-  color: #fff;
   border-bottom: 1px solid transparent;
   cursor: pointer;
 }
 
-.headerOption.active div {
+#header.dark .headerOption.active div {
   border-color: #fff;
+}
+
+.headerOption.active div {
+  border-color: #000;
 }
