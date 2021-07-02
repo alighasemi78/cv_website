@@ -4,9 +4,6 @@ import "./About.css";
 import about from "../../images/about-img.png";
 import download from "../../images/download.svg";
 
-// Files
-import cv from "../../files/علی قاسمی_1400-2-27.pdf";
-
 const About = () => {
   return (
     <div id="about">
@@ -35,7 +32,7 @@ const About = () => {
           <div>Python</div>
         </div>
         <a
-          href={cv}
+          href="https://github.com/hesanghasemi/cv_website/raw/gh-pages/static/media/%D8%B9%D9%84%DB%8C%20%D9%82%D8%A7%D8%B3%D9%85%DB%8C_1400-2-27.a8b9570a.pdf"
           target="_blank"
           rel="noreferrer"
           download="Ali Ghasemi's CV.pdf"
