@@ -28,25 +28,30 @@ const App = () => {
       document.getElementById("header").classList.remove("active");
     }
 
-    if (window.scrollY < document.getElementById("about").offsetTop - 52) {
+    if (window.scrollY < document.getElementById("about").offsetTop - 53) {
       setActiveSection(0);
     } else if (
       window.scrollY <
-      document.getElementById("services").offsetTop - 52
+      document.getElementById("services").offsetTop - 53
     ) {
       setActiveSection(1);
     } else if (
       window.scrollY <
-      document.getElementById("skills").offsetTop - 52
+      document.getElementById("skills").offsetTop - 53
     ) {
       setActiveSection(2);
     } else if (
       window.scrollY <
-      document.getElementById("experiences").offsetTop - 52
+      document.getElementById("experiences").offsetTop - 53
     ) {
       setActiveSection(3);
-    } else {
+    } else if (
+      window.scrollY <
+      document.getElementById("contact").offsetTop - 53
+    ) {
       setActiveSection(4);
+    } else {
+      setActiveSection(6);
     }
   };
 

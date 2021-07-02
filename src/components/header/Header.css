@@ -1,18 +1,23 @@
 #header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: 10px 15px;
   transition: background 0.4s;
   z-index: 1;
 }
 
 #header.active {
   background-color: #202026;
+}
+
+#headerContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 15px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 #headerHamburger {

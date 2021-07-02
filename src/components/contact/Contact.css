@@ -12,3 +12,15 @@
   line-height: 40px;
   font-weight: bold;
 }
+
+#contactContent {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

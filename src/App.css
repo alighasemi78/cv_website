@@ -1,3 +1,4 @@
 #app {
-  background-color: #100e17;
+  max-width: 960px;
+  margin: 0 auto;
 }

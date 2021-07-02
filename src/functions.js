@@ -38,7 +38,7 @@ export const changeActiveSectionPosition = (index) => {
       break;
     case 6:
       window.scrollTo({
-        top: document.getElementById("skills").offsetTop - 52,
+        top: document.getElementById("contact").offsetTop - 52,
         behavior: "smooth",
       });
       break;

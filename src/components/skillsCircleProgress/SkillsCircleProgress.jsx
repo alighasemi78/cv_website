@@ -8,14 +8,14 @@ const SkillsCircleProgress = ({ name, percent }) => {
           <path
             d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
             stroke="rgba(255, 255, 255, 0.5)"
-            stroke-width="5"
-            fill-opacity="0"
+            strokeWidth="5"
+            fillOpacity="0"
           ></path>
           <path
             d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
             stroke="#a97afd"
-            stroke-width="5"
-            fill-opacity="0"
+            strokeWidth="5"
+            fillOpacity="0"
             style={{
               strokeDasharray: "298.493, 298.493",
               strokeDashoffset: ((100 - percent) * 298.493) / 100,

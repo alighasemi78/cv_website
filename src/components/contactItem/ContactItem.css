@@ -37,3 +37,9 @@
 .contactItemValue {
   color: #fff;
 }
+
+@media screen and (min-width: 768px) {
+  .contactItem {
+    width: 30%;
+  }
+}

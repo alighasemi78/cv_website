@@ -17,52 +17,54 @@ const Header = ({ setSideMenuVisible, activeSection }) => {
 
   return (
     <div id="header">
-      {windowWidth < 991 ? (
-        <img
-          src={hamburger}
-          alt="hamburger"
-          id="headerHamburger"
-          onClick={() => setSideMenuVisible(true)}
-        />
-      ) : (
-        <>
-          <div
-            className={`headerOption${activeSection === 0 ? " active" : ""}`}
-          >
-            <div onClick={() => changeActiveSection(0)}>Home</div>
-          </div>
-          <div
-            className={`headerOption${activeSection === 1 ? " active" : ""}`}
-          >
-            <div onClick={() => changeActiveSection(1)}>About</div>
-          </div>
-          <div
-            className={`headerOption${activeSection === 2 ? " active" : ""}`}
-          >
-            <div onClick={() => changeActiveSection(2)}>What I do</div>
-          </div>
-          <div
-            className={`headerOption${activeSection === 3 ? " active" : ""}`}
-          >
-            <div onClick={() => changeActiveSection(3)}>Skills</div>
-          </div>
-          <div
-            className={`headerOption${activeSection === 4 ? " active" : ""}`}
-          >
-            <div onClick={() => changeActiveSection(4)}>Experiences</div>
-          </div>
-          <div
+      <div id="headerContent">
+        {windowWidth < 991 ? (
+          <img
+            src={hamburger}
+            alt="hamburger"
+            id="headerHamburger"
+            onClick={() => setSideMenuVisible(true)}
+          />
+        ) : (
+          <>
+            <div
+              className={`headerOption${activeSection === 0 ? " active" : ""}`}
+            >
+              <div onClick={() => changeActiveSection(0)}>Home</div>
+            </div>
+            <div
+              className={`headerOption${activeSection === 1 ? " active" : ""}`}
+            >
+              <div onClick={() => changeActiveSection(1)}>About</div>
+            </div>
+            <div
+              className={`headerOption${activeSection === 2 ? " active" : ""}`}
+            >
+              <div onClick={() => changeActiveSection(2)}>What I do</div>
+            </div>
+            <div
+              className={`headerOption${activeSection === 3 ? " active" : ""}`}
+            >
+              <div onClick={() => changeActiveSection(3)}>Skills</div>
+            </div>
+            <div
+              className={`headerOption${activeSection === 4 ? " active" : ""}`}
+            >
+              <div onClick={() => changeActiveSection(4)}>Experiences</div>
+            </div>
+            {/* <div
             className={`headerOption${activeSection === 5 ? " active" : ""}`}
           >
             <div onClick={() => changeActiveSection(5)}>Portfolio</div>
-          </div>
-          <div
-            className={`headerOption${activeSection === 6 ? " active" : ""}`}
-          >
-            <div onClick={() => changeActiveSection(6)}>Contact</div>
-          </div>
-        </>
-      )}
+          </div> */}
+            <div
+              className={`headerOption${activeSection === 6 ? " active" : ""}`}
+            >
+              <div onClick={() => changeActiveSection(6)}>Contact</div>
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 };

@@ -30,8 +30,6 @@
 #homeInfoHello {
   background-color: #a97afd;
   color: #fff;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 1px;
   font-weight: bold;
   padding: 10px 30px;
@@ -68,4 +66,36 @@
 
 .homeInfoContactOption a {
   color: #fff;
+}
+
+@media screen and (min-width: 420px) {
+  #home {
+    padding: 30px 15px;
+  }
+
+  #homeImageOuterLayer {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  #home {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  #homeImageOuterLayer {
+    width: calc((100vw - 15px) / 2 - 5vw);
+    height: calc((100vw - 15px) / 2 - 5vw);
+    max-width: calc((960px - 15px) / 2 - 0.05 * 960px);
+    max-height: calc((960px - 15px) / 2 - 0.05 * 960px);
+  }
+
+  #homeInfo {
+    align-items: flex-start;
+    width: calc((100vw - 15px) / 2 - 5vw);
+    max-width: calc((960px - 15px) / 2 - 0.05 * 960px);
+    margin-top: 0;
+  }
 }
