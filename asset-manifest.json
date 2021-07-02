@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cv_website/static/css/main.891e7cdb.chunk.css",
-    "main.js": "/cv_website/static/js/main.c78ef045.chunk.js",
-    "main.js.map": "/cv_website/static/js/main.c78ef045.chunk.js.map",
+    "main.js": "/cv_website/static/js/main.ea305aab.chunk.js",
+    "main.js.map": "/cv_website/static/js/main.ea305aab.chunk.js.map",
     "runtime-main.js": "/cv_website/static/js/runtime-main.dda8de47.js",
     "runtime-main.js.map": "/cv_website/static/js/runtime-main.dda8de47.js.map",
     "static/js/2.7258c518.chunk.js": "/cv_website/static/js/2.7258c518.chunk.js",
@@ -23,13 +23,12 @@
     "static/media/linkedin.d7833fba.svg": "/cv_website/static/media/linkedin.d7833fba.svg",
     "static/media/skype.d9cc97fe.svg": "/cv_website/static/media/skype.d9cc97fe.svg",
     "static/media/telegram.3ccb6779.svg": "/cv_website/static/media/telegram.3ccb6779.svg",
-    "static/media/whatsapp.47404385.svg": "/cv_website/static/media/whatsapp.47404385.svg",
-    "static/media/علی قاسمی_1400-2-27.a8b9570a.pdf": "/cv_website/static/media/علی قاسمی_1400-2-27.a8b9570a.pdf"
+    "static/media/whatsapp.47404385.svg": "/cv_website/static/media/whatsapp.47404385.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dda8de47.js",
     "static/js/2.7258c518.chunk.js",
     "static/css/main.891e7cdb.chunk.css",
-    "static/js/main.c78ef045.chunk.js"
+    "static/js/main.ea305aab.chunk.js"
   ]
 }
