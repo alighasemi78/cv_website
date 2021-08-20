@@ -1,0 +1,114 @@
+#featuredProjects {
+  background-image: url("../../images/home-bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#featuredProjectsOverlay {
+  padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#featuredProjects.dark #featuredProjectsOverlay {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+#featuredProjectsTitle {
+  margin-bottom: 60px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+#featuredProjects.dark #featuredProjectsTitle,
+#featuredProjects.dark .featuredProjectContentTitle,
+#featuredProjects.dark .featuredProjectContentDescription,
+#featuredProjects.dark .swiper-button-next,
+#featuredProjects.dark .swiper-button-prev {
+  color: #fff;
+}
+
+#featuredProjectsContent {
+  width: 100%;
+}
+
+#featuredProjects .swiper-button-next,
+#featuredProjects .swiper-button-prev {
+  color: #000;
+}
+
+.featuredProjectContainer {
+  padding: 0 37px;
+}
+
+.featuredProject {
+  display: flex;
+  flex-direction: column;
+}
+
+.featuredProjectContent {
+  text-align: center;
+}
+
+.featuredProjectContentField {
+  font-size: 14px;
+  color: #a97afd;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.featuredProjectContentTitle {
+  margin: 12px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.featuredProjectContentDescription {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.featuredProjectContentButton {
+  background-color: #a97afd;
+  color: #fff;
+  padding: 8px 30px;
+  font-weight: bold;
+  border-radius: 20px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 576px) {
+  #featuredProjectsOverlay {
+    padding: 60px 15px;
+  }
+
+  .featuredProject {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .featuredProject img,
+  .featuredProjectContent {
+    width: 48%;
+  }
+
+  .featuredProjectContent {
+    text-align: left;
+  }
+
+  .featuredProjectContentTitle {
+    font-size: 2rem;
+  }
+}

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import "swiper/swiper-bundle.min.css";
 
 // Components
 import Header from "./components/header/Header";
@@ -7,6 +8,7 @@ import SideMenu from "./components/sideMenu/SideMenu";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
+import FeaturedProjects from "./components/featuredProjects/FeaturedProjects";
 import Skills from "./components/skills/Skills";
 import Experiences from "./components/experiences/Experiences";
 import Contact from "./components/contact/Contact";
@@ -84,6 +86,7 @@ const App = () => {
       <Home darkMode={darkMode} />
       <About darkMode={darkMode} />
       <Services darkMode={darkMode} />
+      <FeaturedProjects darkMode={darkMode} />
       <Skills darkMode={darkMode} />
       <Experiences darkMode={darkMode} />
       <Contact darkMode={darkMode} />

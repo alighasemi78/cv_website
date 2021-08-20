@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   transition: background 0.4s;
-  z-index: 1;
+  z-index: 2;
 }
 
 #header.active {
@@ -28,13 +28,12 @@
 
 #headerMoon {
   margin-right: auto;
-  width: 20px;
+  font-size: 20px;
   margin-left: 10px;
 }
 
 #headerHamburger {
-  width: 32px;
-  padding: 5px;
+  font-size: 24px;
 }
 
 .headerOption {

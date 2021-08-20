@@ -2,7 +2,7 @@ import "./About.css";
 
 // Images
 import about from "../../images/about-img.png";
-import download from "../../images/download.svg";
+import { DownloadOutlined } from "@ant-design/icons";
 
 const About = ({ darkMode }) => {
   return (
@@ -39,7 +39,7 @@ const About = ({ darkMode }) => {
           id="aboutContentCV"
         >
           Download CV
-          <img src={download} alt="download" />
+          <DownloadOutlined />
         </a>
       </div>
     </div>

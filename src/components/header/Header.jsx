@@ -1,10 +1,7 @@
 import "./Header.css";
 
 // Images
-import hamburgerBlack from "../../images/Hamburger_icon-000000.svg";
-import hamburgerWhite from "../../images/Hamburger_icon-ffffff.svg";
-import moonBlack from "../../images/moon-000000.svg";
-import moonWhite from "../../images/moon-ffffff.svg";
+import MoonIcon from "../../images/moon";
 
 // Components
 import SwitchButton from "../switchButton/SwitchButton";
@@ -14,6 +11,7 @@ import { changeActiveSectionPosition } from "../../functions";
 
 import { useWindowWidth } from "@react-hook/window-size/throttled";
 import { useEffect } from "react";
+import { MenuOutlined } from "@ant-design/icons";
 
 const Header = ({
   setSideMenuVisible,
@@ -39,15 +37,13 @@ const Header = ({
     <div id="header">
       <div id="headerContent">
         <SwitchButton darkMode={darkMode} setDarkMode={setDarkMode} />
-        <img
-          src={darkMode ? moonWhite : moonBlack}
-          alt="moon"
+        <MoonIcon
+          style={{ color: darkMode ? "#fff" : "#000" }}
           id="headerMoon"
         />
         {windowWidth < 991 ? (
-          <img
-            src={darkMode ? hamburgerWhite : hamburgerBlack}
-            alt="hamburger"
+          <MenuOutlined
+            style={{ color: darkMode ? "#fff" : "#000" }}
             id="headerHamburger"
             onClick={() => setSideMenuVisible(true)}
           />

@@ -13,9 +13,9 @@
   color: #fff;
 }
 
-.serviceItem img {
+.serviceItem .anticon {
   margin: 16px 0 20px;
-  height: 29.6px;
+  font-size: 29.6px;
 }
 
 .serviceItem div:first-of-type {

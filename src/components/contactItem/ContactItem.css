@@ -21,8 +21,8 @@
   align-items: center;
 }
 
-.contactItemImage img {
-  height: 20px;
+.contactItemImage .anticon {
+  font-size: 20px;
 }
 
 .contactItemTitle {

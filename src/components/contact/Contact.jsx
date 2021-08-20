@@ -1,19 +1,16 @@
 import "./Contact.css";
 
 // Images
-import envelopeBlack from "../../images/envelope-000000.svg";
-import envelopeWhite from "../../images/envelope-ffffff.svg";
-import skypeBlack from "../../images/skype-000000.svg";
-import skypeWhite from "../../images/skype-ffffff.svg";
-import telegramBlack from "../../images/telegram-000000.svg";
-import telegramWhite from "../../images/telegram-ffffff.svg";
-import whatsappBlack from "../../images/whatsapp-000000.svg";
-import whatsappWhite from "../../images/whatsapp-ffffff.svg";
-import linkedinBlack from "../../images/linkedin-000000.svg";
-import linkedinWhite from "../../images/linkedin-ffffff.svg";
+import EnvelopeIcon from "../../images/envelope";
+import TelegramIcon from "../../images/telegram";
 
 // Components
 import ContactItem from "../contactItem/ContactItem";
+import {
+  LinkedinFilled,
+  SkypeFilled,
+  WhatsAppOutlined,
+} from "@ant-design/icons";
 
 const Contact = ({ darkMode }) => {
   return (
@@ -21,31 +18,35 @@ const Contact = ({ darkMode }) => {
       <div id="contactTitle">Contact Me</div>
       <div id="contactContent">
         <ContactItem
-          image={darkMode ? envelopeWhite : envelopeBlack}
+          image={<EnvelopeIcon style={{ color: darkMode ? "#fff" : "#000" }} />}
           title="Email"
           value="hesanghasemi99@gmail.com"
           link="mailto:hesanghasemi99@gmail.com"
         />
         <ContactItem
-          image={darkMode ? skypeWhite : skypeBlack}
+          image={<SkypeFilled style={{ color: darkMode ? "#fff" : "#000" }} />}
           title="Skype"
           value="Ali Ghasemi"
           link="skype:live:.cid.ae0ede6705e47885?chat"
         />
         <ContactItem
-          image={darkMode ? telegramWhite : telegramBlack}
+          image={<TelegramIcon style={{ color: darkMode ? "#fff" : "#000" }} />}
           title="Telegram"
           value="Ali Ghasemi"
           link="https://t.me/Hesan_G"
         />
         <ContactItem
-          image={darkMode ? whatsappWhite : whatsappBlack}
+          image={
+            <WhatsAppOutlined style={{ color: darkMode ? "#fff" : "#000" }} />
+          }
           title="WhatsApp"
           value="Ali Ghasemi"
           link="https://api.whatsapp.com/send?phone=989028336171"
         />
         <ContactItem
-          image={darkMode ? linkedinWhite : linkedinBlack}
+          image={
+            <LinkedinFilled style={{ color: darkMode ? "#fff" : "#000" }} />
+          }
           title="LinkedIn"
           value="Ali Ghasemi"
           link="https://www.linkedin.com/in/alighasemi13781999"

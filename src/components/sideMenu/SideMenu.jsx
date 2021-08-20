@@ -1,7 +1,7 @@
 import "./SideMenu.css";
 
 // Images
-import close from "../../images/close.svg";
+import { CloseOutlined } from "@ant-design/icons";
 
 // Functions
 import { changeActiveSectionPosition } from "../../functions";
@@ -25,7 +25,7 @@ const SideMenu = ({ visible, setVisible, activeSection }) => {
       onClick={closeSideMenu}
     >
       <div id="sideMenuContent">
-        <img src={close} alt="close" onClick={() => setVisible(false)} />
+        <CloseOutlined onClick={() => setVisible(false)} />
         <div
           className={activeSection === 0 ? "active" : null}
           onClick={() => goToSections(0)}
