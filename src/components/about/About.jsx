@@ -17,11 +17,12 @@ const About = ({ darkMode }) => {
           </a>
           . I'm currently the head of the <strong>React Front-End</strong> team
           @ <a href="https://marketmap.org/fa">Marketmap</a>. I'm also familiar
-          with the concepts of <strong>AI</strong> and <strong>ML</strong>. I
-          got familiar with <strong>Python</strong> through University projects
-          and assignments. Also, I have the <strong>Advanced</strong> English
-          certificate from <strong>British Council</strong>. Currently, I'm
-          getting ready for the <strong>Toefl</strong> test. Also, I'm good at:
+          with <strong>AI</strong> and <strong>ML</strong> with educational
+          projects. I got familiar with <strong>Python</strong> through
+          University projects and assignments. Also, I have the{" "}
+          <strong>Advanced</strong> English certificate from{" "}
+          <strong>British Council</strong>. Currently, I'm getting ready for the{" "}
+          <strong>Toefl</strong> test. Moreover, I'm good at:
         </div>
         <div id="aboutContentSkills">
           <div>HTML</div>
@@ -32,7 +33,7 @@ const About = ({ darkMode }) => {
           <div>Python</div>
         </div>
         <a
-          href="https://github.com/hesanghasemi/cv_website/raw/master/src/files/%D8%B9%D9%84%DB%8C%20%D9%82%D8%A7%D8%B3%D9%85%DB%8C_1400-2-27.pdf"
+          href="https://github.com/hesanghasemi/cv_website/raw/master/src/files/Ali%20Ghasemi's%20CV.pdf"
           target="_blank"
           rel="noreferrer"
           download="Ali Ghasemi's CV.pdf"
