@@ -19,10 +19,8 @@ const About = ({ darkMode }) => {
           @ <a href="https://marketmap.org/fa">Marketmap</a>. I'm also familiar
           with <strong>AI</strong> and <strong>ML</strong> with educational
           projects. I got familiar with <strong>Python</strong> through
-          University projects and assignments. Also, I have the{" "}
-          <strong>Advanced</strong> English certificate from{" "}
-          <strong>British Council</strong>. Currently, I'm getting ready for the{" "}
-          <strong>Toefl</strong> test. Moreover, I'm good at:
+          University projects and assignments. <strong>Toefl</strong> score of{" "}
+          <strong>111</strong>. Moreover, I'm good at:
         </div>
         <div id="aboutContentSkills">
           <div>HTML</div>
@@ -33,10 +31,10 @@ const About = ({ darkMode }) => {
           <div>Python</div>
         </div>
         <a
-          href="https://github.com/hesanghasemi/cv_website/raw/master/src/files/Ali%20Ghasemi's%20CV.pdf"
+          href="https://github.com/hesanghasemi/cv_website/raw/master/src/files/CV.pdf"
           target="_blank"
           rel="noreferrer"
-          download="Ali Ghasemi's CV.pdf"
+          download="CV.pdf"
           id="aboutContentCV"
         >
           Download CV
